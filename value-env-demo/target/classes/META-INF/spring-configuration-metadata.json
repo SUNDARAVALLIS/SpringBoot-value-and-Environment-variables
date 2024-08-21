@@ -1,0 +1,88 @@
+{
+  "groups": [
+    {
+      "name": "users",
+      "type": "com.tataelxsi.valenv.configuration.UsersConfig",
+      "sourceType": "com.tataelxsi.valenv.configuration.UsersConfig"
+    },
+    {
+      "name": "users.database",
+      "type": "com.tataelxsi.valenv.configuration.DbConfig",
+      "sourceType": "com.tataelxsi.valenv.configuration.DbConfig"
+    },
+    {
+      "name": "users.database",
+      "type": "com.tataelxsi.valenv.configuration.UsersConfig$Database",
+      "sourceType": "com.tataelxsi.valenv.configuration.UsersConfig",
+      "sourceMethod": "public com.tataelxsi.valenv.configuration.UsersConfig.Database getDatabase() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "users.database.driver",
+      "type": "java.lang.String",
+      "sourceType": "com.tataelxsi.valenv.configuration.DbConfig"
+    },
+    {
+      "name": "users.database.driver",
+      "type": "java.lang.String",
+      "sourceType": "com.tataelxsi.valenv.configuration.UsersConfig$Database"
+    },
+    {
+      "name": "users.database.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.tataelxsi.valenv.configuration.DbConfig"
+    },
+    {
+      "name": "users.database.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.tataelxsi.valenv.configuration.UsersConfig$Database"
+    },
+    {
+      "name": "users.database.password",
+      "type": "java.lang.String",
+      "sourceType": "com.tataelxsi.valenv.configuration.DbConfig"
+    },
+    {
+      "name": "users.database.password",
+      "type": "java.lang.String",
+      "sourceType": "com.tataelxsi.valenv.configuration.UsersConfig$Database"
+    },
+    {
+      "name": "users.database.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.tataelxsi.valenv.configuration.DbConfig"
+    },
+    {
+      "name": "users.database.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.tataelxsi.valenv.configuration.UsersConfig$Database"
+    },
+    {
+      "name": "users.database.username",
+      "type": "java.lang.String",
+      "sourceType": "com.tataelxsi.valenv.configuration.DbConfig"
+    },
+    {
+      "name": "users.database.username",
+      "type": "java.lang.String",
+      "sourceType": "com.tataelxsi.valenv.configuration.UsersConfig$Database"
+    },
+    {
+      "name": "users.grade",
+      "type": "java.lang.String",
+      "sourceType": "com.tataelxsi.valenv.configuration.UsersConfig"
+    },
+    {
+      "name": "users.id",
+      "type": "java.lang.Integer",
+      "sourceType": "com.tataelxsi.valenv.configuration.UsersConfig"
+    },
+    {
+      "name": "users.name",
+      "type": "java.lang.String",
+      "sourceType": "com.tataelxsi.valenv.configuration.UsersConfig"
+    }
+  ],
+  "hints": []
+}

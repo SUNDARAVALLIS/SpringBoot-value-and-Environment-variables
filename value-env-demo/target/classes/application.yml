@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: value-env-demo
+ 
+mail:
+ server: microsoft-oulook
+ email: abcd@outlook.com
+ password: abcd123
+ 
+java:
+ home: ${JAVA_HOME}
+
+m2:
+ home: ${M2_HOME}
+ 
+users:
+ id: 1
+ name: abc
+ grade: S
+ 
+ database:
+  enabled: true
+  port: 8080
+  driver: h2
+  username: sa
+  password: password
+
+  
+ 
